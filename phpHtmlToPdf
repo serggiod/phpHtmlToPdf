@@ -1,0 +1,3 @@
+#!/bin/bash
+
+php phpHtmlToPdf.php $1 $2

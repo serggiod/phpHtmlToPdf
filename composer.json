@@ -1,0 +1,15 @@
+{
+    "name": "sdominguez/php-html-to-pdf",
+    "description": "Convierte un archivo html en pdf. Recibe como parametro el path del archivo html.",
+    "license": "GLP",
+    "authors": [
+        {
+            "name": "Orlando Sergio Dominguez",
+            "email": "serggio@msn.com"
+        }
+    ],
+    "require": {
+        "dompdf/dompdf": "^0.8.3",
+        "katzgrau/klogger": "^1.2"
+    }
+}
