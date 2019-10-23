@@ -62,6 +62,7 @@
 	
                 if(file_put_contents($this->PathToPdf,$this->Pdf->output())) $this->Log->info('El archivo se ha convertido en forma correcta.');
                 else $this->Log->info('No se pudo convertir el archivo html en pdf.');
+               
             }
             
         }
