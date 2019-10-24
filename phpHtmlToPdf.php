@@ -6,6 +6,9 @@
 
     use \Katzgrau\KLogger\Logger;
     use \Dompdf\Dompdf;
+    use \Dompdf\Options;
+
+    define("DOMPDF_ENABLE_PHP", true);
     
     class HtmlToPdf{
 
